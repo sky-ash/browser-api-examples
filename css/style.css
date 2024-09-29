@@ -1,0 +1,64 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+h2, h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 60%;
+    margin: 20px 20% 20px 20%;
+    padding: 30px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.api-card {
+    background-color: #292929;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.primary-btn {
+    width: 60%;
+    margin: 0 20% 0 20%;
+    padding: 15px;
+    background-color: #3c3c3c;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#map {
+    height: 400px;  /* Set map height */
+    width: 100%;    /* Full width */
+    margin-top: 20px;
+}

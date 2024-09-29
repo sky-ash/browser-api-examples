@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+
+    <title>Web Speech API - Text to Speech</title>
+    <link rel="stylesheet" href="../css/style.css"> 
+    <script src="../js/webspeech.js"></script>
+
+</head>
+<body>
+
+    <div class="header">
+        <a href="../index.html">
+            <h1>Examples of Browser APIs</h1>
+        </a>
+    </div>
+
+    <div class="container">
+        <h2>Web Speech API</h2>
+
+        <label for="text">Enter text to speak:</label>
+        <input type="text" id="text" placeholder="Type something to speak...">
+
+        <p id="spoken-text">This text will be read aloud.</p>
+
+        <button class="primary-btn" onclick="speakText()">Speak</button>
+    </div>
+
+</body>
+</html>

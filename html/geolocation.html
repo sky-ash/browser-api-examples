@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+
+    <title>Geolocation API</title>
+    <link rel="stylesheet" href="../css/style.css"> 
+    <script src="../js/geolocation.js"></script>
+
+    <!-- Include Leaflet.js CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+</head>
+<body>
+
+    <div class="header">
+        <a href="../index.html">
+            <h1>Examples of Browser APIs</h1>
+        </a>
+    </div>
+
+    <div class="container">
+        <h2>Geolocation API</h2>
+        <p>
+            The Geolocation API allows the user to provide their 
+            location to web applications if they so desire. 
+            For privacy reasons, the user is asked for permission to report 
+            location information.
+        </p>
+        <button class="primary-btn" onclick="getLocation()">
+            Get Current Location
+        </button>
+    </div>
+
+    <div class="container">
+        <h3>Response Object</h3>
+        <div id="position-object">
+            <pre id="position"></pre>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Lat and Lon as Marker on Map</h3>
+        <div id="map"></div>
+    </div>
+
+</body>
+</html>
