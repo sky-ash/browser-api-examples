@@ -7,17 +7,16 @@
 ├── html
 │   ├── geolocation.html
 │   ├── vibration.html
-│   └── texttospeech.html
+│   └── webspeech.html
 ├── js
 │   ├── geolocation.js
 │   ├── vibration.js
-│   └── texttospeech.js
+│   └── webspeech.js
 └── css
     └── style.css
 ```
 
 ## APIs
-- [Geolocation API](./apis/geolocation.html)
-- [Vibration API](./apis/vibration.html)
-- [Text-to-Speech API](./apis/texttospeech.html)
-
+- [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
+- [Vibration API](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API)
+- [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
